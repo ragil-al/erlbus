@@ -5,4 +5,3 @@
 
 handle_msg(Msg, Context) ->
   Context ! {message_published, Msg}.
-  
